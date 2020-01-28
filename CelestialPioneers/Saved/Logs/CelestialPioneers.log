@@ -598,3 +598,67 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.28-19.24.27:247][  0]LogFileCache: Scanning file cache for directory 'C:/Users/149650/Desktop/CelestialPioneer/CelestialPioneers/Content/' took 0.00s
 [2020.01.28-19.24.27:247][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
 [2020.01.28-19.24.27:247][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.28-19.25.19:307][  0]SourceControl: Source control is disabled
+[2020.01.28-19.25.19:307][  0]Cmd: MAP LOAD FILE="../../../../../CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.28-19.25.19:308][  0]LogEditorServer: Warning: Can't find file '../../../../../CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.01.28-19.25.19:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.28-19.25.19:308][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
+[2020.01.28-19.25.19:308][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.001
+[2020.01.28-19.25.19:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-19.25.19:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-19.25.19:404][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-19.25.19:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-19.25.20:939][  0]LogCollectionManager: Loaded 0 collections in 0.001802 seconds
+[2020.01.28-19.25.20:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/149650/Desktop/CelestialPioneer/CelestialPioneers/Saved/Collections/' took 0.00s
+[2020.01.28-19.25.20:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/149650/Desktop/CelestialPioneer/CelestialPioneers/Content/Developers/149650/Collections/' took 0.00s
+[2020.01.28-19.25.20:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/149650/Desktop/CelestialPioneer/CelestialPioneers/Content/Collections/' took 0.00s
+[2020.01.28-19.25.20:945][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.01.28-19.25.20:951][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2863 classes and 680 folders.
+[2020.01.28-19.25.20:957][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.01.28-19.25.21:116][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.01.28-19.25.22:660][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.01.28-19.25.22:671][  0]LogSlate: Took 0.000907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.28-19.25.22:674][  0]LogSlate: Took 0.000813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.28-19.25.22:677][  0]LogSlate: Took 0.000676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.28-19.25.22:734][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.01.28-19.25.24:358][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.01.28-19.25.24:358][  0]LogLoad: (Engine Initialization) Total time: 430.63 seconds
+[2020.01.28-19.25.24:358][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.28-19.25.24:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.28-19.25.24:441][  0]LogSlate: Took 0.000767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.28-19.25.24:463][  1]LogAssetRegistry: Asset discovery search completed in 317.6801 seconds
+[2020.01.28-19.25.24:465][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2020.01.28-19.25.24:465][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2020.01.28-19.25.25:787][  5]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.28-19.25.29:730][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.28-19.25.31:741][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:741][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:743][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:743][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:744][716]LogLinker: Warning: Failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:744][716]LogLinker: Warning: Failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:744][716]LogLinker: Warning: Failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:744][716]LogLinker: Warning: Failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:745][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:745][716]LoadErrors: Failed to load /Game/Maps/TestOne_BuiltData.TestOne_BuiltData Referenced by PersistentLevel
+[2020.01.28-19.25.31:745][716]LogLinker: Warning: While loading '../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap' failed to load '/Game/Maps/TestOne_BuiltData': Can't find file.
+[2020.01.28-19.25.31:754][716]LogAIModule: Creating AISystem for world TestOne
+[2020.01.28-19.25.31:759][716]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/TestOne.TestOne
+[2020.01.28-19.25.31:784][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.01.28-19.25.31:785][716]Cmd: MAP LOAD FILE="../../../../../CelestialPioneer/CelestialPioneers/Content/Maps/TestOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.28-19.25.31:785][716]LightingResults: New page: Lighting Build
+[2020.01.28-19.25.31:788][716]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2020.01.28-19.25.31:788][716]LoadErrors: New page: Loading map: TestOne.umap
+[2020.01.28-19.25.31:788][716]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.28-19.25.31:788][716]MapCheck: New page: Map Check
+[2020.01.28-19.25.31:788][716]LightingResults: New page: Lighting Build
+[2020.01.28-19.25.31:812][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.01.28-19.25.31:814][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.28-19.25.31:837][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.01.28-19.25.31:855][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.28-19.25.31:855][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2020.01.28-19.25.31:855][716]LogFileHelpers: Loading map 'TestOne' took 0.072
+[2020.01.28-19.26.24:373][ 10]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E0AC3519-4C64-4939-CDC8-33990F838940}
+[2020.01.28-19.26.24:373][ 10]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={DDCF6A95-4C64-8577-906B-68BE78EA5D10}
+[2020.01.28-19.26.24:373][ 10]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={C4EB45FD-439F-92A3-1F4B-AEB0B576A765}
+[2020.01.28-19.26.24:373][ 10]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={1AFEB5EB-48D5-73FE-A5B2-E29DB9CEC21E}

@@ -75,3 +75,4 @@ DerivedDataCache/*
 
 git rm --cached CelestialPioneers/Saved/Logs/CelestialPioneers.log
 CelestialPioneers/Saved/Logs/CelestialPioneers.log
+*.log
