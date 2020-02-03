@@ -706,3 +706,745 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-19.14.26:362][987]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2020.02.03-19.15.41:575][904]Cmd: SELECT NONE
 [2020.02.03-19.15.44:565][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.23.33:500][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.23.35:243][181]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/SaturnRings_Tex.SaturnRings_Tex
+[2020.02.03-19.23.35:251][181]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.02.03-19.23.48:758][784]LogSlate: Window 'SaturnRings_Tex' being destroyed
+[2020.02.03-19.24.03:736][576]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SaturnRings)
+[2020.02.03-19.24.03:800][576]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-19.24.05:242][734]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.24.29:990][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.24.44:496][907]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Venus_Mat.Venus_Mat
+[2020.02.03-19.24.44:790][907]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-19.25.02:356][ 47]LogTexture: Display: Building textures: Venus_Tex (AutoDXT, 8192X4096)
+[2020.02.03-19.25.13:347][262]LogTexture: Display: Building textures: VenusClouds_Tex (AutoDXT, 4096X2048)
+[2020.02.03-19.26.02:669][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.26.11:146][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.26.12:037][180]LogSlate: Window 'Venus_Mat' being destroyed
+[2020.02.03-19.26.14:309][389]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Saturn_Mat.Saturn_Mat
+[2020.02.03-19.26.20:482][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.26.20:594][124]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.27.00:911][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.01:076][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Venus_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset" SILENT=true
+[2020.02.03-19.27.01:102][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.02.03-19.27.01:108][967]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-19.27.01:357][967]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-19.27.01:357][967]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-19.27.01:358][967]TextureStreamingBuild: Display: Compiling optional shaders took 0.256 seconds.
+[2020.02.03-19.27.01:391][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.02.03-19.27.01:403][967]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Venus_Mat83B5CF7844FBAD78A570BDABFE4ECF72.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset'
+[2020.02.03-19.27.06:422][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.09:461][794]LogActorFactory: Actor Factory created Planet_Mesh
+[2020.02.03-19.27.11:232][  6]LogActorFactory: Actor Factory created Planet_Mesh
+[2020.02.03-19.27.12:682][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.21:828][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.26:861][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-19.27.28:326][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-19.27.29:611][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.36:965][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.27.48:239][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mars)
+[2020.02.03-19.27.49:521][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-19.27.50:897][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.28.04:899][388]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.28.53:133][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.29.09:567][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Venus_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset" SILENT=true
+[2020.02.03-19.29.09:591][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.02.03-19.29.09:594][  8]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-19.29.09:852][  8]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-19.29.09:852][  8]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-19.29.09:853][  8]TextureStreamingBuild: Display: Compiling optional shaders took 0.262 seconds.
+[2020.02.03-19.29.09:877][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.02.03-19.29.09:894][  8]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Venus_Mat2C936287473CCEA96E6031AC65906F91.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset'
+[2020.02.03-19.29.11:266][169]LogSlate: Window 'Venus_Mat' being destroyed
+[2020.02.03-19.29.11:269][169]LogSlate: Window 'Venus_Mat' being destroyed
+[2020.02.03-19.29.11:280][169]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.29.25:327][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mars)
+[2020.02.03-19.29.27:135][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saturn)
+[2020.02.03-19.29.29:260][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-19.29.31:713][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.29.39:010][236]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.29.48:489][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-19.29.49:491][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.29.58:647][381]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.29.59:574][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.31.46:699][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-19.31.50:568][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.32.19:461][265]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.32.39:569][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-19.33.19:795][452]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-19.33.19:841][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.02.03-19.33.19:841][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Space" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Autosaves/Game/Levels/Space_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.03-19.33.19:922][452]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Space_Auto104B0EF7E4B09347D3C14A4AF69F32060.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Autosaves/Game/Levels/Space_Auto1.umap'
+[2020.02.03-19.33.19:926][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Space' took 0.110
+[2020.02.03-19.33.19:926][452]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.110
+[2020.02.03-19.33.20:131][474]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.33.25:542][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-19.33.27:128][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.33.27:336][252]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Planet_Mat.Planet_Mat
+[2020.02.03-19.33.27:339][252]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.33.27:406][252]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.33.27:413][252]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.33.27:419][252]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.33.27:419][252]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.33.27:419][252]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.33.27:419][252]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.33.27:423][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-19.33.27:430][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2020.02.03-19.33.27:436][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2020.02.03-19.33.27:442][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.02.03-19.33.27:450][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2020.02.03-19.33.27:458][252]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 16
+[2020.02.03-19.33.27:458][252]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2020.02.03-19.33.27:458][252]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 14
+[2020.02.03-19.33.27:458][252]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.02.03-19.33.27:458][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2020.02.03-19.33.27:464][252]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2020.02.03-19.33.27:512][252]LogSlate: Took 0.004720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.03-19.33.27:632][252]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.02.03-19.33.27:749][258]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.02.03-19.33.27:841][263]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2020.02.03-19.33.27:872][265]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 21
+[2020.02.03-19.33.27:872][265]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2020.02.03-19.33.27:936][269]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.02.03-19.33.27:952][270]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.02.03-19.33.27:952][270]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.02.03-19.33.27:972][271]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-19.33.27:972][271]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-19.33.27:972][271]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-19.33.27:972][271]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-19.33.27:972][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-19.33.28:005][273]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.02.03-19.33.28:109][279]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.02.03-19.33.28:142][281]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.02.03-19.33.28:178][283]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.02.03-19.33.28:270][288]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2020.02.03-19.33.28:270][288]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.02.03-19.33.28:290][289]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2020.02.03-19.33.28:323][291]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.02.03-19.33.28:375][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.02.03-19.33.28:441][298]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.02.03-19.33.28:460][299]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.02.03-19.33.28:477][300]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.02.03-19.33.28:603][307]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.02.03-19.33.28:618][307]LogSlate: Took 0.006504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.03-19.33.28:630][308]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-19.33.28:630][308]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.33.28:649][309]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.02.03-19.33.34:080][907]LogSlate: Window 'Planet_Mat' being destroyed
+[2020.02.03-19.33.34:112][907]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.33.36:157][ 56]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Earth_Mat.Earth_Mat
+[2020.02.03-19.33.44:412][ 11]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.33.45:423][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.34.17:648][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.34.30:624][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.34.35:276][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Earth_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Earth_Mat.uasset" SILENT=true
+[2020.02.03-19.34.35:302][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.02.03-19.34.35:308][104]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-19.34.35:330][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.02.03-19.34.35:347][104]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Earth_Mat0844D28B4E58C4D61AB56AA0838670B5.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Earth_Mat.uasset'
+[2020.02.03-19.34.36:789][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.34.36:896][288]LogSlate: Window 'Earth_Mat' being destroyed
+[2020.02.03-19.34.36:899][288]LogSlate: Window 'Earth_Mat' being destroyed
+[2020.02.03-19.34.36:921][288]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.37.27:222][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun)
+[2020.02.03-19.37.46:113][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.37.46:331][148]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Sun_Mat.Sun_Mat
+[2020.02.03-19.38.03:408][135]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.38.10:716][990]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.38.11:987][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Sun_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset" SILENT=true
+[2020.02.03-19.38.12:011][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.02.03-19.38.12:015][139]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-19.38.12:217][139]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-19.38.12:217][139]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-19.38.12:218][139]TextureStreamingBuild: Display: Compiling optional shaders took 0.207 seconds.
+[2020.02.03-19.38.12:240][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.02.03-19.38.12:255][139]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Sun_Mat6215432C4F067404C033238AD6BA9CC5.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset'
+[2020.02.03-19.38.14:088][358]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.38.15:315][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.38.19:396][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.38.24:807][593]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.38.29:329][134]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.38.39:826][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.38.47:508][265]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.39.01:559][825]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-19.39.08:414][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Sun_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset" SILENT=true
+[2020.02.03-19.39.08:437][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.02.03-19.39.08:442][644]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-19.39.08:644][644]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-19.39.08:644][644]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-19.39.08:645][644]TextureStreamingBuild: Display: Compiling optional shaders took 0.207 seconds.
+[2020.02.03-19.39.08:667][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.02.03-19.39.08:677][644]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Sun_Mat367A1E37426509773F477693A517D419.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset'
+[2020.02.03-19.39.21:207][144]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.39.22:418][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.39.25:513][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.39.42:565][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun)
+[2020.02.03-19.39.46:312][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.39.52:231][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Sun_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset" SILENT=true
+[2020.02.03-19.39.52:255][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.02.03-19.39.52:258][750]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-19.39.52:461][750]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-19.39.52:461][750]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-19.39.52:462][750]TextureStreamingBuild: Display: Compiling optional shaders took 0.207 seconds.
+[2020.02.03-19.39.52:483][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.02.03-19.39.52:493][750]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Sun_Mat6316901F4C69180165B7949A72FB1710.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Sun_Mat.uasset'
+[2020.02.03-19.39.53:238][837]LogSlate: Window 'Sun_Mat' being destroyed
+[2020.02.03-19.39.53:242][837]LogSlate: Window 'Sun_Mat' being destroyed
+[2020.02.03-19.39.53:263][837]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.39.54:079][934]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.39.55:747][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.42.47:373][720]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-19.42.48:663][875]Cmd: STAT FPS
+[2020.02.03-19.42.54:121][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.42.54:254][546]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-19.42.54:265][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.03-19.42.54:265][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-19.42.54:265][546]PIE: New page: PIE session: Space (Feb 3, 2020, 7:42:54 AM)
+[2020.02.03-19.42.54:265][546]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.03-19.42.54:267][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001521s)
+[2020.02.03-19.42.54:267][546]LogAIModule: Creating AISystem for world Space
+[2020.02.03-19.42.54:268][546]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2020.02.03-19.42.54:268][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002434s)
+[2020.02.03-19.42.54:291][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.02.03-19.42.54:297][546]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.03-19.42.54:302][546]LogInit: FAudioDevice initialized.
+[2020.02.03-19.42.54:310][546]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-19.42.54:311][546]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.03-13.42.54
+[2020.02.03-19.42.54:312][546]LogWorld: Bringing up level for play took: 0.000511
+[2020.02.03-19.42.54:312][546]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.02.03-19.42.54:313][546]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space 0.435
+[2020.02.03-19.42.54:313][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.03-19.53.02:688][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.03-19.53.02:689][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-19.53.02:689][526]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.03-19.53.02:689][526]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.53.02:693][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-19.53.02:693][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.03-19.53.02:718][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-19.53.02:720][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.02.03-19.53.02:792][534]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.02.03-19.53.03:500][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-19.55.59:695][746]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-19.56.00:986][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-19.56.04:247][286]Cmd: STAT FPS
+[2020.02.03-19.56.07:622][691]Cmd: STAT FPS
+[2020.02.03-19.56.09:755][947]Cmd: STAT FPS
+[2020.02.03-19.56.15:668][656]Cmd: STAT FPS
+[2020.02.03-19.56.17:197][770]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Planet_Mat.Planet_Mat
+[2020.02.03-19.56.17:200][770]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.56.17:257][770]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.56.17:264][770]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.56.17:271][770]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.56.17:271][770]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.56.17:271][770]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.56.17:271][770]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.56.17:275][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-19.56.17:282][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2020.02.03-19.56.17:289][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2020.02.03-19.56.17:297][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.02.03-19.56.17:306][770]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 16
+[2020.02.03-19.56.17:307][770]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2020.02.03-19.56.17:307][770]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 14
+[2020.02.03-19.56.17:307][770]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.02.03-19.56.17:307][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2020.02.03-19.56.17:314][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2020.02.03-19.56.17:322][770]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2020.02.03-19.56.17:497][773]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.02.03-19.56.17:636][782]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.02.03-19.56.17:707][787]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2020.02.03-19.56.17:722][788]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2020.02.03-19.56.17:736][789]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.02.03-19.56.17:801][794]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.02.03-19.56.17:817][795]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.02.03-19.56.17:817][795]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.02.03-19.56.17:818][795]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-19.56.17:818][795]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-19.56.17:818][795]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-19.56.17:818][795]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-19.56.17:818][795]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-19.56.17:876][799]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.02.03-19.56.17:994][807]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.02.03-19.56.18:012][808]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.02.03-19.56.18:040][810]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2020.02.03-19.56.18:125][816]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2020.02.03-19.56.18:125][816]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2020.02.03-19.56.18:142][817]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2020.02.03-19.56.18:170][819]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.02.03-19.56.18:239][824]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.02.03-19.56.18:310][829]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.02.03-19.56.18:339][831]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-19.56.18:352][832]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.02.03-19.56.18:451][839]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.02.03-19.56.18:482][841]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-19.56.18:498][842]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.56.18:513][843]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.02.03-19.57.27:907][108]LogSlate: Window 'Planet_Mat' being destroyed
+[2020.02.03-19.57.33:729][658]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Star_Mat.Star_Mat
+[2020.02.03-19.57.33:732][658]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-19.57.33:784][658]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-19.57.33:790][658]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-19.57.33:799][658]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.57.33:799][658]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.57.33:799][658]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.57.33:799][658]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.57.33:802][658]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-19.57.33:808][658]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2020.02.03-19.57.33:848][658]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.02.03-19.57.33:848][658]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.02.03-19.57.33:848][658]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-19.57.33:848][658]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.02.03-19.57.34:084][680]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.57.34:210][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.57.34:274][700]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.02.03-19.57.34:291][702]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.57.34:366][710]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-19.57.34:366][710]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-19.57.34:366][710]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-19.57.39:995][274]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Space_Mat.Space_Mat
+[2020.02.03-19.57.39:998][274]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-19.57.40:049][274]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-19.57.40:056][274]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-19.57.40:062][274]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.57.40:062][274]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.57.40:062][274]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.57.40:062][274]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.57.40:066][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2020.02.03-19.57.40:106][274]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.02.03-19.57.40:106][274]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.02.03-19.57.40:106][274]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.02.03-19.57.40:106][274]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.02.03-19.57.40:420][304]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-19.57.40:421][304]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-19.57.40:421][304]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-19.57.40:421][304]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-19.58.19:182][906]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/SpaceSkybox_Bp.SpaceSkybox_Bp
+[2020.02.03-19.58.19:426][906]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.02.03-19.59.35:212][920]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-19.59.44:715][ 55]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.59.44:721][ 55]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.02.03-19.59.44:745][ 56]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.59.44:745][ 56]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.59.44:745][ 56]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.59.44:745][ 56]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.59.44:768][ 58]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.02.03-19.59.44:768][ 58]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.02.03-19.59.44:768][ 58]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.02.03-19.59.44:768][ 58]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.02.03-19.59.45:237][107]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-19.59.45:237][107]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-19.59.45:237][107]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-19.59.45:237][107]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-19.59.45:237][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-19.59.47:120][332]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-19.59.47:147][333]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-19.59.47:147][333]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-19.59.47:147][333]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-19.59.47:147][333]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-19.59.47:411][364]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-19.59.47:411][364]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-19.59.47:411][364]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-19.59.47:411][364]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-19.59.47:411][364]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.52:264][146]LogEditorTransaction: Undo Move Node
+[2020.02.03-20.00.52:267][146]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.52:280][146]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.52:284][146]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.52:284][146]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.00.52:284][146]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.00.52:284][146]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.00.52:290][146]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.52:321][147]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.02.03-20.00.52:321][147]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.02.03-20.00.52:321][147]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-20.00.52:321][147]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.02.03-20.00.52:510][167]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.52:540][169]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.00.52:618][175]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.02.03-20.00.52:631][176]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.02.03-20.00.52:731][186]LogEditorTransaction: Undo Move Node
+[2020.02.03-20.00.52:734][186]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.52:739][186]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.02.03-20.00.52:739][186]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.02.03-20.00.52:739][186]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.02.03-20.00.52:741][186]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.52:748][186]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.52:780][186]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.02.03-20.00.52:780][186]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.02.03-20.00.52:782][187]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.02.03-20.00.52:870][197]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.02.03-20.00.52:889][199]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.02.03-20.00.52:898][200]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.02.03-20.00.52:950][206]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.00.52:968][208]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.02.03-20.00.53:004][212]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.02.03-20.00.53:153][229]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.00.53:153][229]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.00.53:153][229]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.00.53:153][229]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.00.53:153][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.53:211][236]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.00.53:211][236]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.53:211][236]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.00.53:286][245]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.00.53:287][245]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.53:287][245]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.00.53:287][245]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.00.53:387][257]LogEditorTransaction: Undo Move Node
+[2020.02.03-20.00.53:389][257]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.53:396][257]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.53:399][257]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.53:399][257]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.00.53:399][257]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.00.53:399][257]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.00.53:402][257]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.53:421][258]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.02.03-20.00.53:421][258]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.02.03-20.00.53:421][258]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-20.00.53:421][258]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.02.03-20.00.53:505][268]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.53:541][272]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.00.53:627][281]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-20.00.53:635][282]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.00.53:789][300]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.00.53:789][300]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.53:789][300]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.00.53:814][303]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.00.53:814][303]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.00.53:814][303]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.00.53:814][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.00.53:814][303]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.53:913][315]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.00.53:913][315]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.53:913][315]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.00.53:913][315]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.00.54:096][337]LogEditorTransaction: Undo Move Node
+[2020.02.03-20.00.54:099][337]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.54:105][337]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.54:105][337]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.00.54:105][337]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.00.54:105][337]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.00.54:105][337]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.54:111][337]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.54:131][338]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.02.03-20.00.54:131][338]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.02.03-20.00.54:131][338]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-20.00.54:131][338]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.02.03-20.00.54:225][349]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.54:245][351]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.00.54:339][361]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-20.00.54:350][362]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.54:496][379]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.00.54:621][394]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.00.54:621][394]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.54:621][394]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.00.54:621][394]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.00.54:670][400]LogEditorTransaction: Undo Move Node
+[2020.02.03-20.00.54:673][400]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.54:680][400]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.02.03-20.00.54:684][400]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.02.03-20.00.54:686][400]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.54:790][411]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.54:820][414]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.00.54:906][422]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-20.00.54:925][424]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.00.55:064][440]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.00.55:064][440]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.55:064][440]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.00.55:089][443]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.00.55:089][443]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.00.55:089][443]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.00.55:089][443]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.00.55:089][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.55:190][455]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.00.55:190][455]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.55:190][455]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.00.55:190][455]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.00.55:739][521]LogEditorTransaction: Undo Material Editor: Delete
+[2020.02.03-20.00.55:742][521]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.55:748][521]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.00.55:758][521]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.02.03-20.00.55:762][521]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.00.55:762][521]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.00.55:762][521]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.00.55:762][521]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.00.55:765][521]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.00.55:771][521]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.00.55:796][521]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2020.02.03-20.00.55:797][521]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2020.02.03-20.00.55:797][521]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2020.02.03-20.00.55:797][521]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.02.03-20.00.55:866][530]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.02.03-20.00.55:994][543]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.02.03-20.00.55:994][543]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 6
+[2020.02.03-20.00.56:093][554]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.02.03-20.00.56:103][555]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.02.03-20.00.56:112][556]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.02.03-20.00.56:164][562]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.02.03-20.00.56:175][563]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.02.03-20.00.56:198][565]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.00.56:198][565]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.00.56:198][565]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.00.56:198][565]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.00.56:198][565]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.00.56:357][584]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.00.56:357][584]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.56:357][584]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.00.56:458][596]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.00.56:458][596]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.00.56:458][596]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.00.56:458][596]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.01.01:666][220]Cmd: TRANSACTION REDO
+[2020.02.03-20.01.01:666][220]LogEditorTransaction: Redo Material Editor: Delete
+[2020.02.03-20.01.01:669][220]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.01.01:675][220]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.01.01:685][220]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.01.01:685][220]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.01.01:685][220]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.01.01:685][220]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.01.01:685][220]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.01.01:692][220]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.01.01:724][221]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.02.03-20.01.01:724][221]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.02.03-20.01.01:724][221]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.02.03-20.01.01:724][221]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.02.03-20.01.01:792][227]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.01.01:834][230]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.01.01:907][233]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.02.03-20.01.01:923][234]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Base pass shader without light map: 79 instructions
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Texture samplers: 3/16
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.01.02:087][246]MaterialEditorStats: Texture samplers: 0/16
+[2020.02.03-20.01.02:199][258]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.03-20.01.02:199][258]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.03-20.01.02:199][258]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.03-20.01.02:199][258]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.03-20.01.07:083][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.02.03-20.01.07:092][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Space" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-20.01.07:120][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.03-20.01.07:234][840]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Space4D8795774712077DC33BD0AE2A04DDE5.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.03-20.01.07:256][840]LogFileHelpers: Saving map 'Space' took 0.164
+[2020.02.03-20.01.13:026][531]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-20.01.15:285][802]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-20.01.39:595][672]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.02.03-20.01.39:598][672]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.02.03-20.06.31:326][659]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Earth)
+[2020.02.03-20.06.31:355][659]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-20.06.32:375][780]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-20.07.12:137][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.15.11:707][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-20.15.15:855][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.15.29:649][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.15.39:950][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.09:539][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Venus)
+[2020.02.03-20.16.10:815][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.23:487][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saturn)
+[2020.02.03-20.16.26:609][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.35:030][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SaturnRings)
+[2020.02.03-20.16.36:108][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.44:660][667]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.03-20.16.45:227][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.49:675][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.16.52:052][520]LogActorFactory: Actor Factory created Planet_Mesh
+[2020.02.03-20.16.52:469][569]LogActorFactory: Actor Factory created Planet_Mesh
+[2020.02.03-20.16.54:188][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.17.01:967][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.17.28:328][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.17.46:759][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.17.52:156][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.17.54:634][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Saturn)
+[2020.02.03-20.17.56:016][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh3)
+[2020.02.03-20.17.57:106][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh2)
+[2020.02.03-20.17.58:037][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.18.00:832][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh3)
+[2020.02.03-20.18.04:422][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.18.17:801][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh)
+[2020.02.03-20.18.18:806][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.18.35:870][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet_Mesh3)
+[2020.02.03-20.18.37:893][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.19.24:963][370]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mercury_Mat.Mercury_Mat
+[2020.02.03-20.19.38:159][128]LogTexture: Display: Building textures: Mercury_Tex (AutoDXT, 8192X4096)
+[2020.02.03-20.20.08:866][488]LogSlate: Window 'Message' being destroyed
+[2020.02.03-20.20.09:171][488]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.20.09:190][488]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.20.09:190][488]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.20.09:190][488]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.20.09:190][488]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.20.09:190][488]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.20.09:200][488]LogMaterial: Display: Missing cached shader map for material Planet_Mat, compiling. 
+[2020.02.03-20.20.09:257][488]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.02.03-20.20.09:257][488]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.02.03-20.20.09:257][488]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.02.03-20.20.09:257][488]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.02.03-20.20.09:260][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.02.03-20.20.09:269][488]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-20.20.09:692][488]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.02.03-20.20.09:692][488]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.02.03-20.20.09:692][488]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.20.09:695][488]TextureStreamingBuild: Display: Compiling optional shaders took 0.434 seconds.
+[2020.02.03-20.20.09:724][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.02.03-20.20.09:756][488]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.20.12:503][621]LogSlate: Window 'Message' being destroyed
+[2020.02.03-20.20.12:809][621]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.20.12:823][621]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.20.12:823][621]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.20.12:823][621]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.20.12:823][621]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.20.12:828][621]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.20.12:837][621]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.03-20.20.12:866][621]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.02.03-20.20.12:866][621]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.02.03-20.20.12:866][621]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.02.03-20.20.12:866][621]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.02.03-20.20.12:870][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.02.03-20.20.12:877][621]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-20.20.13:158][621]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.02.03-20.20.13:158][621]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.02.03-20.20.13:158][621]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.20.13:160][621]TextureStreamingBuild: Display: Compiling optional shaders took 0.290 seconds.
+[2020.02.03-20.20.13:187][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.02.03-20.20.13:215][621]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.20.16:211][792]LogSlate: Window 'Message' being destroyed
+[2020.02.03-20.20.16:518][792]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.20.16:532][792]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.03-20.20.16:532][792]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.03-20.20.16:532][792]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.03-20.20.16:532][792]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.03-20.20.16:538][792]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.20.16:547][792]LogMaterial: Display: Missing cached shader map for material Star_Mat, compiling. 
+[2020.02.03-20.20.16:551][792]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.02.03-20.20.16:551][792]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.02.03-20.20.16:551][792]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.02.03-20.20.16:551][792]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.02.03-20.20.16:578][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.02.03-20.20.16:589][792]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-20.20.16:839][792]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.02.03-20.20.16:839][792]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.02.03-20.20.16:839][792]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.02.03-20.20.16:841][792]TextureStreamingBuild: Display: Compiling optional shaders took 0.262 seconds.
+[2020.02.03-20.20.16:864][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.02.03-20.20.16:894][792]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.20.27:113][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.20.27:304][887]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Neptune_Mat.Neptune_Mat
+[2020.02.03-20.20.35:919][888]LogTexture: Display: Building textures: Neptune_Tex (AutoDXT, 2048X1024)
+[2020.02.03-20.21.03:897][231]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-20.21.16:725][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Neptune_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Neptune_Mat.uasset" SILENT=true
+[2020.02.03-20.21.16:757][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.02.03-20.21.16:763][765]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.21.16:789][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.02.03-20.21.16:800][765]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Neptune_MatECF0F9DE4296514B805060BF516A6E7C.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Neptune_Mat.uasset'
+[2020.02.03-20.21.18:040][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mercury_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mercury_Mat.uasset" SILENT=true
+[2020.02.03-20.21.18:067][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.03-20.21.18:073][910]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.21.18:100][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.02.03-20.21.18:111][910]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Mercury_Mat0F9FB61348F266B5F11C878A3F800E33.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mercury_Mat.uasset'
+[2020.02.03-20.21.22:210][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Neptune)
+[2020.02.03-20.21.25:181][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.21.27:751][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mercury)
+[2020.02.03-20.21.30:007][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.21.33:324][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Uranus)
+[2020.02.03-20.21.36:844][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.21.37:035][843]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Uranus_Mat.Uranus_Mat
+[2020.02.03-20.21.44:507][711]LogTexture: Display: Building textures: Uranus_Tex (AutoDXT, 2048X1024)
+[2020.02.03-20.22.34:539][641]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-20.22.38:170][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Uranus_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Uranus_Mat.uasset" SILENT=true
+[2020.02.03-20.22.38:198][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.02.03-20.22.38:204][ 71]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.22.38:233][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.02.03-20.22.38:245][ 71]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Uranus_Mat2563F2014D3C5FD5BB1B59910417F2E7.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Uranus_Mat.uasset'
+[2020.02.03-20.22.42:613][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.22.44:487][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.22.44:586][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.03-20.22.45:629][722]LogSlate: Window 'Save Content' being destroyed
+[2020.02.03-20.22.45:641][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Space" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-20.22.45:665][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.02.03-20.22.45:779][722]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/SpaceC3C8059E41F2C0236687499C709296AC.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.03-20.22.45:804][722]LogFileHelpers: Saving map 'Space' took 0.163
+[2020.02.03-20.22.45:827][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Planet_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Planet_Mat.uasset" SILENT=true
+[2020.02.03-20.22.45:846][722]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Planet_Mat4F6933A14498223F40B0E8821A1EBF58.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Planet_Mat.uasset'
+[2020.02.03-20.22.45:860][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Space_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Space_Mat.uasset" SILENT=true
+[2020.02.03-20.22.45:878][722]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Space_Mat56758EF54FB57A33C2C85380C53AAD36.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Space_Mat.uasset'
+[2020.02.03-20.22.45:892][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Star_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Star_Mat.uasset" SILENT=true
+[2020.02.03-20.22.45:908][722]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Star_Mat2A5E41ED4EBEA85DDF8B9C91C979DD97.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Star_Mat.uasset'
+[2020.02.03-20.22.55:034][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Earth)
+[2020.02.03-20.23.01:650][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.23.01:874][438]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mars_Mat.Mars_Mat
+[2020.02.03-20.23.15:031][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.23.23:526][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mars_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mars_Mat.uasset" SILENT=true
+[2020.02.03-20.23.23:554][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.02.03-20.23.23:560][998]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.23.23:588][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.02.03-20.23.23:603][998]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Mars_MatB3F6E84C4FE1023F78A359B780EE3178.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mars_Mat.uasset'
+[2020.02.03-20.23.24:695][127]LogSlate: Window 'Mars_Mat' being destroyed
+[2020.02.03-20.23.24:721][127]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.23.32:481][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Venus)
+[2020.02.03-20.23.35:014][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.23.35:204][295]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Venus_Mat.Venus_Mat
+[2020.02.03-20.23.46:105][489]LogSlate: Window 'Mercury_Mat' being destroyed
+[2020.02.03-20.24.23:458][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Uranus)
+[2020.02.03-20.24.25:398][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Neptune)
+[2020.02.03-20.24.50:322][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-20.24.56:038][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.06:096][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.12:670][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.12:795][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mercury_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mercury_Mat.uasset" SILENT=true
+[2020.02.03-20.25.12:826][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.02.03-20.25.12:831][629]TextureStreamingBuild: Display: Compiling optional shaders took 0.005 seconds.
+[2020.02.03-20.25.12:860][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.02.03-20.25.12:876][629]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Mercury_Mat13A9D3CB47B39EDC674252BC8E70391F.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Mercury_Mat.uasset'
+[2020.02.03-20.25.14:045][764]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.25.23:431][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.32:630][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Venus_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset" SILENT=true
+[2020.02.03-20.25.32:657][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.02.03-20.25.32:663][982]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.25.32:688][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.02.03-20.25.32:704][982]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Venus_Mat34A50F2E44B218ED1D4233AFFBCE2EEF.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Venus_Mat.uasset'
+[2020.02.03-20.25.33:868][115]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.25.46:487][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.46:679][324]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Saturn_Mat.Saturn_Mat
+[2020.02.03-20.25.59:779][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.25.59:868][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Saturn_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Saturn_Mat.uasset" SILENT=true
+[2020.02.03-20.25.59:896][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.02.03-20.25.59:902][872]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.25.59:929][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.03-20.25.59:944][872]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Saturn_MatF631DA1E47A01745AD556B90B57E6BCE.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Saturn_Mat.uasset'
+[2020.02.03-20.26.00:803][969]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.26.05:453][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.26.11:456][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.26.18:982][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Uranus_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Uranus_Mat.uasset" SILENT=true
+[2020.02.03-20.26.19:009][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.02.03-20.26.19:014][130]TextureStreamingBuild: Display: Compiling optional shaders took 0.005 seconds.
+[2020.02.03-20.26.19:040][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.02.03-20.26.19:056][130]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Uranus_MatEEF9BD254EE25B6FE6F689AB68E1595E.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Uranus_Mat.uasset'
+[2020.02.03-20.26.19:866][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.26.20:029][243]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.26.24:028][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.26.26:578][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Neptune_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Neptune_Mat.uasset" SILENT=true
+[2020.02.03-20.26.26:605][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.02.03-20.26.26:611][ 20]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2020.02.03-20.26.26:640][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.02.03-20.26.26:655][ 20]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Neptune_Mat75D1A8914E9414A5631F4893950F482C.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Neptune_Mat.uasset'
+[2020.02.03-20.26.27:481][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.26.27:597][130]LogSlate: Window 'Neptune_Mat' being destroyed
+[2020.02.03-20.26.27:622][130]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-20.26.42:966][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.03-20.27.45:759][502]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.03-20.27.47:779][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
