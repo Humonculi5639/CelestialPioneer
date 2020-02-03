@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CelestialPioneers.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{562CABB2-3708-47DD-9870-05A5EAB10382}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CelestialPioneers.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CelestialPioneersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AA792FB9-1CFF-4FBF-898C-CD7411F9D92F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{4DC95F03-929F-477F-9227-371B9B8931CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{3CA87DBB-5DFF-4B59-B19E-43959B016B6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{AF41652A-1A9F-4569-8525-6F238C7BA1B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{268683F4-E2A3-4F8C-A61A-2855803BD4C6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{A78DBCF4-8570-4B8B-8C49-580934717EDD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{1976D8E2-900F-4A53-AA85-F0C6A48A9312}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{E3279E5C-A1DA-4793-980A-D882F3F10B4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{B59B4455-EE33-4E8E-8ECC-25C36D4A7641}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\CelestialPioneers">
+      <UniqueIdentifier>{AFA4541B-ECA2-4852-8A46-360F23B63C51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CelestialPioneers\CelestialPioneers.Build.cs">
+      <Filter>Source\CelestialPioneers</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CelestialPioneers\CelestialPioneers.cpp">
+      <Filter>Source\CelestialPioneers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CelestialPioneers\CelestialPioneers.h">
+      <Filter>Source\CelestialPioneers</Filter>
+    </ClInclude>
+    <Filter Include="Source\CelestialPioneers\Private">
+      <UniqueIdentifier>{6E7A3E3C-0034-4CB6-84EF-5FDF9D31F9AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CelestialPioneers\Private\ShipBase.cpp">
+      <Filter>Source\CelestialPioneers\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CelestialPioneers\Public">
+      <UniqueIdentifier>{C0B7CF99-3E56-4FBE-BD4E-1277C1C98ED7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CelestialPioneers\Public\ShipBase.h">
+      <Filter>Source\CelestialPioneers\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

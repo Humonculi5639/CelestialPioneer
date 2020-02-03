@@ -1,0 +1,3 @@
+C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Source\CelestialPioneers\CelestialPioneers.Build.cs
+C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Source\CelestialPioneers.Target.cs
+C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Source\CelestialPioneersEditor.Target.cs
