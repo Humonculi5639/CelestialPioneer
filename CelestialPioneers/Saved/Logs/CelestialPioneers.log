@@ -653,3 +653,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.07-19.09.41:346][625]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
 [2020.02.07-19.09.45:362][ 95]LogSlate: Window 'Template_Tex' being destroyed
 [2020.02.07-19.14.53:316][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.32.20:988][ 71]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Space_Mat.Space_Mat
+[2020.02.07-19.32.20:992][ 71]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.07-19.32.21:257][ 71]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.07-19.32.21:264][ 71]LogMaterial: Display: Missing cached shader map for material Space_Mat, compiling. 
+[2020.02.07-19.32.21:271][ 71]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.02.07-19.32.21:271][ 71]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.02.07-19.32.21:271][ 71]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.02.07-19.32.21:271][ 71]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.02.07-19.32.21:275][ 71]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2020.02.07-19.32.21:325][ 71]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.02.07-19.32.21:325][ 71]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.02.07-19.32.21:325][ 71]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.02.07-19.32.21:325][ 71]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.02.07-19.32.21:325][ 71]LogSlate: Took 0.005684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.07-19.32.21:518][ 81]LogSlate: Took 0.004629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.07-19.32.21:885][124]MaterialEditorStats: Base pass shader without light map: 51 instructions
+[2020.02.07-19.32.21:885][124]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.02.07-19.32.21:885][124]MaterialEditorStats: Texture samplers: 1/16
+[2020.02.07-19.32.21:885][124]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.02.07-19.32.23:189][277]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.07-19.32.26:186][606]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/SpaceSkybox_Bp.SpaceSkybox_Bp
+[2020.02.07-19.32.26:437][606]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.02.07-19.32.34:054][439]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2020.02.07-19.33.38:638][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.33.38:754][187]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.07-19.44.01:300][883]LogEditorViewport: Clicking on Actor (LMB): SpaceSkybox_Bp_C (Skybox)
+[2020.02.07-19.44.04:375][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
