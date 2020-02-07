@@ -963,3 +963,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.07-19.38.39:012][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Space" FILE="../../../../../CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2020.02.07-19.38.39:039][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
 [2020.02.07-19.38.39:159][893]LogSavePackage: Moving '../../../../../CelestialPioneer/CelestialPioneers/Saved/Space0ABB4BB54954C2EFE93E5FB4F05F0645.tmp' to '../../../../../CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.07-19.40.40:757][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.40.40:840][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Space" FILE="../../../../../CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.07-19.40.40:868][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.02.07-19.40.40:981][724]LogSavePackage: Moving '../../../../../CelestialPioneer/CelestialPioneers/Saved/Space0736D9DF4FC4BD0B26D7EC8EA7A77575.tmp' to '../../../../../CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
