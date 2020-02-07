@@ -1,4 +1,4 @@
-﻿Log file open, 02/05/20 13:04:53
+﻿Log file open, 02/07/20 13:08:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -6,11 +6,10 @@ LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
-LogInit: Display: Running engine without a game
+LogInit: Display: Running engine for game: CelestialPioneers
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: Loading recent project file: ../../../../../GitHub/CelestialPioneer/CelestialPioneers/CelestialPioneers.uproject
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.503000
+LogStats: Stats thread started at 0.472128
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -158,565 +157,499 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.05-19.04.53:988][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.05-19.04.53:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.05-19.04.54:004][  0]LogHAL: Display: Platform has ~ 16 GB [17023918080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.05-19.04.54:004][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.02.05-19.04.54:004][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
-[2020.02.05-19.04.54:010][  0]LogInit: Computer: S020RMD114-05
-[2020.02.05-19.04.54:010][  0]LogInit: User: 166486
-[2020.02.05-19.04.54:010][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.02.05-19.04.54:010][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.05-19.04.54:010][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.02.05-19.04.54:010][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.05-19.04.54:010][  0]LogMemory: Process Physical Memory: 101.82 MB used, 101.82 MB peak
-[2020.02.05-19.04.54:010][  0]LogMemory: Process Virtual Memory: 99.67 MB used, 99.67 MB peak
-[2020.02.05-19.04.54:010][  0]LogMemory: Physical Memory: 2106.56 MB used,  14128.71 MB free, 16235.27 MB total
-[2020.02.05-19.04.54:010][  0]LogMemory: Virtual Memory: 4699.59 MB used,  134213032.00 MB free, 134217728.00 MB total
-[2020.02.05-19.04.54:015][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.02.05-19.04.54:225][  0]LogInit: Using OS detected language (en-US).
-[2020.02.05-19.04.54:225][  0]LogInit: Using OS detected locale (en-US).
-[2020.02.05-19.04.54:228][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.05-19.04.54:487][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.05-19.04.54:551][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.05-19.04.54:551][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.05-19.04.56:102][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.05-19.04.56:102][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.05-19.04.56:199][  0]LogD3D11RHI:    0. 'Radeon Pro WX 7100' (Feature Level 11_0)
-[2020.02.05-19.04.56:199][  0]LogD3D11RHI:       8172/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.02.05-19.04.56:201][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.05-19.04.56:201][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.05-19.04.56:201][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.05-19.04.56:206][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.05-19.04.56:206][  0]LogD3D11RHI:     GPU DeviceId: 0x67c4 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.05-19.04.56:207][  0]LogWindows: EnumDisplayDevices:
-[2020.02.05-19.04.56:207][  0]LogWindows:    0. 'Radeon Pro WX 7100' (P:1 D:1)
-[2020.02.05-19.04.56:207][  0]LogWindows:    1. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:207][  0]LogWindows:    2. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:207][  0]LogWindows:    3. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:208][  0]LogWindows:    4. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:208][  0]LogWindows:    5. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:208][  0]LogWindows:    6. 'Radeon Pro WX 7100' (P:0 D:0)
-[2020.02.05-19.04.56:208][  0]LogWindows: DebugString: FoundDriverCount:7 
-[2020.02.05-19.04.56:208][  0]LogD3D11RHI:     Adapter Name: Radeon Pro WX 7100
-[2020.02.05-19.04.56:209][  0]LogD3D11RHI:   Driver Version: Adrenalin 17.12 (internal:24.20.12024.10, unified:24.20.12024.10)
-[2020.02.05-19.04.56:209][  0]LogD3D11RHI:      Driver Date: 7-17-2018
-[2020.02.05-19.04.56:209][  0]LogRHI: Texture pool is 5720 MB (70% of 8172 MB)
-[2020.02.05-19.04.56:320][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.05-19.04.56:336][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.02.05-19.04.56:610][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.02.05-19.04.56:617][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.02.05-19.04.56:625][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.02.05-19.04.56:632][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.02.05-19.04.56:645][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.02.05-19.04.56:653][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.02.05-19.04.56:662][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.02.05-19.04.56:670][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.02.05-19.04.56:674][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.02.05-19.04.56:708][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.02.05-19.04.56:712][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.02.05-19.04.56:738][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.02.05-19.04.56:738][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.02.05-19.04.56:748][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.02.05-19.04.56:748][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.02.05-19.04.56:755][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.02.05-19.04.56:761][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.02.05-19.04.56:768][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.02.05-19.04.56:783][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.02.05-19.04.56:804][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.02.05-19.04.56:804][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.02.05-19.04.56:804][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.05-19.04.56:839][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.02.05-19.04.56:941][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../GitHub/CelestialPioneer/CelestialPioneers/Intermediate/Shaders/WorkingDirectory/7928/).
-[2020.02.05-19.04.56:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/166486/AppData/Local/Temp/UnrealShaderWorkingDir/417F31A04C1B60772E59169CBA5375D9/'.
-[2020.02.05-19.04.56:944][  0]LogXGEController: Cleaning working directory: C:/Users/166486/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.02.05-19.04.56:944][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.05-19.04.56:944][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.05-19.04.56:944][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.05-19.04.58:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/CelestialPioneer/CelestialPioneers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/CelestialPioneer/CelestialPioneers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.05-19.04.58:671][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.05-19.04.58:685][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.05-19.04.58:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.05-19.04.58:685][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.05-19.04.58:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/166486/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.05-19.04.58:687][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.05-19.04.58:687][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.05-19.04.58:704][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.05-19.04.58:709][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.05-19.04.58:722][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.05-19.04.58:906][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
-[2020.02.05-19.04.59:179][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.05-19.04.59:435][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.05-19.04.59:435][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.02.05-19.04.59:435][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.05-19.04.59:435][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.02.05-19.04.59:436][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.02.05-19.04.59:470][  0]LogNetVersion: CelestialPioneers 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 812701684)
-[2020.02.05-19.05.00:336][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.040966 seconds
-[2020.02.05-19.05.00:340][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.02.05-19.05.00:340][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.02.05-19.05.00:340][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.05-19.05.02:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.05-19.05.02:673][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.05-19.05.02:763][  0]SourceControl: Source control is disabled
-[2020.02.05-19.05.02:763][  0]SourceControl: Source control is disabled
-[2020.02.05-19.05.02:771][  0]SourceControl: Source control is disabled
-[2020.02.05-19.05.02:774][  0]SourceControl: Source control is disabled
-[2020.02.05-19.05.02:960][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.05-19.05.03:093][  0]LogOcInput: OculusInput pre-init called
-[2020.02.05-19.05.03:102][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.02.05-19.05.03:102][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.02.05-19.05.03:212][  0]LogEngine: Initializing Engine...
-[2020.02.05-19.05.03:214][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.05-19.05.03:215][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.02.05-19.05.03:547][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.05-19.05.03:576][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.05-19.05.03:594][  0]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.02.05-19.05.03:694][  0]LogInit: FAudioDevice initialized.
-[2020.02.05-19.05.03:694][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.05-19.05.03:730][  0]LogDerivedDataCache: Saved boot cache 0.04s 73MB C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.02.05-19.05.03:739][  0]LogInit: Texture streaming: Enabled
-[2020.02.05-19.05.03:760][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.05-19.05.03:760][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.02.05-19.05.03:761][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.02.05-19.05.03:822][  0]LogInit: Transaction tracking system initialized
-[2020.02.05-19.05.03:880][  0]BlueprintLog: New page: Editor Load
-[2020.02.05-19.05.04:026][  0]LocalizationService: Localization service is disabled
-[2020.02.05-19.05.04:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/' took 0.00s
-[2020.02.05-19.05.04:467][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.05-19.05.04:467][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.05-19.05.04:816][  0]SourceControl: Source control is disabled
-[2020.02.05-19.05.04:816][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.05-19.05.04:816][  0]LogEditorServer: Warning: Can't find file '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap'
-[2020.02.05-19.05.04:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.05-19.05.04:817][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.351ms to complete.
-[2020.02.05-19.05.04:817][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.001
-[2020.02.05-19.05.04:962][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.05-19.05.04:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.05-19.05.04:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.05-19.05.04:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.05-19.05.05:013][  0]LogCollectionManager: Loaded 0 collections in 0.022258 seconds
-[2020.02.05-19.05.05:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Collections/' took 0.00s
-[2020.02.05-19.05.05:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/Developers/166486/Collections/' took 0.00s
-[2020.02.05-19.05.05:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/Collections/' took 0.00s
-[2020.02.05-19.05.05:031][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.02.05-19.05.05:038][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2863 classes and 680 folders.
-[2020.02.05-19.05.05:052][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.02.05-19.05.05:297][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.02.05-19.05.05:307][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.02.05-19.05.05:350][  0]LogSlate: Took 0.004439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.05-19.05.05:356][  0]LogSlate: Took 0.003953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.05-19.05.05:363][  0]LogSlate: Took 0.003810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.05-19.05.05:475][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.02.05-19.05.05:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.02.05-19.05.05:575][  0]LogLoad: (Engine Initialization) Total time: 15.44 seconds
-[2020.02.05-19.05.05:575][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.05-19.05.05:633][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.05-19.05.05:967][  7]LogAssetRegistry: Asset discovery search completed in 7.0625 seconds
-[2020.02.05-19.05.05:970][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2020.02.05-19.05.05:970][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
-[2020.02.05-19.05.09:665][449]LogSlate: Took 0.003658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.05-19.05.17:759][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.05-19.05.21:148][824]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.05-19.05.22:098][824]LogAIModule: Creating AISystem for world Space
-[2020.02.05-19.05.22:339][824]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Space.Space
-[2020.02.05-19.05.22:365][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2020.02.05-19.05.22:366][824]Cmd: MAP LOAD FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.05-19.05.22:366][824]LightingResults: New page: Lighting Build
-[2020.02.05-19.05.22:369][824]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
-[2020.02.05-19.05.22:370][824]LoadErrors: New page: Loading map: Space.umap
-[2020.02.05-19.05.22:370][824]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.05.22:371][824]MapCheck: New page: Map Check
-[2020.02.05-19.05.22:371][824]LightingResults: New page: Lighting Build
-[2020.02.05-19.05.22:394][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
-[2020.02.05-19.05.22:402][824]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.05-19.05.22:426][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
-[2020.02.05-19.05.22:447][824]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.05-19.05.22:447][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
-[2020.02.05-19.05.22:447][824]LogFileHelpers: Loading map 'Space' took 0.082
-[2020.02.05-19.05.41:669][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.05-19.05.41:842][100]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Space.Space
-[2020.02.05-19.05.41:864][100]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
-[2020.02.05-19.05.41:865][100]Cmd: MAP LOAD FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.05-19.05.41:865][100]LightingResults: New page: Lighting Build
-[2020.02.05-19.05.41:865][100]LoadErrors: New page: Loading map: Space.umap
-[2020.02.05-19.05.41:866][100]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.05.41:866][100]MapCheck: New page: Map Check
-[2020.02.05-19.05.41:866][100]LightingResults: New page: Lighting Build
-[2020.02.05-19.05.41:890][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
-[2020.02.05-19.05.41:898][100]LogAIModule: Creating AISystem for world Space
-[2020.02.05-19.05.41:899][100]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.05-19.05.41:923][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2020.02.05-19.05.41:944][100]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.05-19.05.41:944][100]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.056ms to complete.
-[2020.02.05-19.05.41:945][100]LogFileHelpers: Loading map 'Space' took 0.081
-[2020.02.05-19.06.03:646][657]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.02.05-19.06.05:577][889]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={5C2F66CD-4355-D59D-F5E5-D0B96753B70D}
-[2020.02.05-19.06.34:144][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.05-19.06.43:139][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.05-19.08.20:510][ 10]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Ceres_Mat.Ceres_Mat
-[2020.02.05-19.08.20:846][ 10]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
-[2020.02.05-19.08.29:100][763]LogTexture: Display: Building textures: Ceres_Tex (AutoDXT, 4096X2048)
-[2020.02.05-19.09.29:188][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Ceres_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Ceres_Mat.uasset" SILENT=true
-[2020.02.05-19.09.29:212][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
-[2020.02.05-19.09.29:220][877]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.02.05-19.09.29:471][877]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
-[2020.02.05-19.09.29:471][877]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
-[2020.02.05-19.09.29:471][877]TextureStreamingBuild: Display: Compiling optional shaders took 0.259 seconds.
-[2020.02.05-19.09.29:498][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2020.02.05-19.09.29:511][877]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Ceres_Mat38D17F784395CBA8BF84F2BFA35865B1.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Ceres_Mat.uasset'
-[2020.02.05-19.09.31:959][163]LogSlate: Window 'Ceres_Mat' being destroyed
-[2020.02.05-19.09.35:381][533]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.09.37:629][719]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Eris_Mat.Eris_Mat
-[2020.02.05-19.09.47:010][612]LogTexture: Display: Building textures: Eris_Tex (AutoDXT, 4096X2048)
-[2020.02.05-19.09.58:534][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Eris_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Eris_Mat.uasset" SILENT=true
-[2020.02.05-19.09.58:559][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
-[2020.02.05-19.09.58:565][979]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
-[2020.02.05-19.09.58:587][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2020.02.05-19.09.58:598][979]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Eris_MatEA7D96CB48651EEBB9DC6C896A491C9B.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Eris_Mat.uasset'
-[2020.02.05-19.10.00:416][189]LogSlate: Window 'Eris_Mat' being destroyed
-[2020.02.05-19.10.02:371][385]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Haumea_Mat.Haumea_Mat
-[2020.02.05-19.10.12:539][419]LogTexture: Display: Building textures: Haumea_Tex (AutoDXT, 4096X2048)
-[2020.02.05-19.10.29:045][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Haumea_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Haumea_Mat.uasset" SILENT=true
-[2020.02.05-19.10.29:068][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2020.02.05-19.10.29:073][386]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
-[2020.02.05-19.10.29:097][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2020.02.05-19.10.29:108][386]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Haumea_Mat0DB076C443395CF47A04669C908A5148.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Haumea_Mat.uasset'
-[2020.02.05-19.10.31:016][575]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Ceres_Mat.Ceres_Mat
-[2020.02.05-19.10.35:695][ 47]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Makemake_Mat.Makemake_Mat
-[2020.02.05-19.10.45:748][  6]LogTexture: Display: Building textures: Makemake_Tex (AutoDXT, 4096X2048)
-[2020.02.05-19.10.56:844][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Makemake_Mat" FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Makemake_Mat.uasset" SILENT=true
-[2020.02.05-19.10.56:867][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
-[2020.02.05-19.10.56:872][328]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
-[2020.02.05-19.10.56:895][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
-[2020.02.05-19.10.56:906][328]LogSavePackage: Moving '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Saved/Makemake_Mat6853EA54414696020FF4659C460C3A3C.tmp' to '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Materials/Makemake_Mat.uasset'
-[2020.02.05-19.11.15:420][547]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.11.16:301][650]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.11.16:768][703]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.11.17:230][755]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.02.05-19.11.50:807][692]LogRenderer: Reallocating scene render targets to support 1692x920 Format 10 NumSamples 1 (Frame:30823).
-[2020.02.05-19.11.50:842][693]LogRenderer: Reallocating scene render targets to support 1748x928 Format 10 NumSamples 1 (Frame:30825).
-[2020.02.05-19.11.50:875][694]LogRenderer: Reallocating scene render targets to support 1880x1016 Format 10 NumSamples 1 (Frame:30827).
-[2020.02.05-19.11.50:905][695]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:30829).
-[2020.02.05-19.11.50:940][696]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.02.05-19.12.29:218][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.02.05-19.12.48:976][654]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.02.05-19.12.50:275][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
-[2020.02.05-19.13.03:091][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.05-19.14.22:103][239]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.02.05-19.14.23:567][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
-[2020.02.05-19.14.27:714][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.02.07-19.08.20:989][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.02.07-19.08.20:990][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:991][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.07-19.08.20:991][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:991][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.20:995][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.07-19.08.20:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.07-19.08.20:996][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.07-19.08.20:996][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.07-19.08.20:997][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.07-19.08.21:005][  0]LogHAL: Display: Platform has ~ 16 GB [17023918080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.07-19.08.21:005][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.07-19.08.21:005][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Scalability.ini]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.07-19.08.21:006][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.07-19.08.21:010][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.07-19.08.21:010][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.07-19.08.21:010][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
+[2020.02.07-19.08.21:011][  0]LogInit: Computer: S020RMD114-05
+[2020.02.07-19.08.21:011][  0]LogInit: User: 166486
+[2020.02.07-19.08.21:011][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.07-19.08.21:011][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.07-19.08.21:011][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.07-19.08.21:011][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.07-19.08.21:011][  0]LogMemory: Process Physical Memory: 101.73 MB used, 101.73 MB peak
+[2020.02.07-19.08.21:011][  0]LogMemory: Process Virtual Memory: 101.49 MB used, 101.49 MB peak
+[2020.02.07-19.08.21:011][  0]LogMemory: Physical Memory: 3478.55 MB used,  12756.72 MB free, 16235.27 MB total
+[2020.02.07-19.08.21:011][  0]LogMemory: Virtual Memory: 4701.16 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.02.07-19.08.21:015][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.07-19.08.21:196][  0]LogInit: Using OS detected language (en-US).
+[2020.02.07-19.08.21:196][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.07-19.08.21:201][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.07-19.08.21:461][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.07-19.08.21:530][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.07-19.08.21:530][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.07-19.08.22:963][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.07-19.08.22:963][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.07-19.08.23:059][  0]LogD3D11RHI:    0. 'Radeon Pro WX 7100' (Feature Level 11_0)
+[2020.02.07-19.08.23:059][  0]LogD3D11RHI:       8172/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.02.07-19.08.23:061][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.07-19.08.23:061][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.07-19.08.23:061][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.07-19.08.23:067][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.07-19.08.23:067][  0]LogD3D11RHI:     GPU DeviceId: 0x67c4 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.07-19.08.23:067][  0]LogWindows: EnumDisplayDevices:
+[2020.02.07-19.08.23:067][  0]LogWindows:    0. 'Radeon Pro WX 7100' (P:1 D:1)
+[2020.02.07-19.08.23:067][  0]LogWindows:    1. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:068][  0]LogWindows:    2. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:068][  0]LogWindows:    3. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:068][  0]LogWindows:    4. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:068][  0]LogWindows:    5. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:069][  0]LogWindows:    6. 'Radeon Pro WX 7100' (P:0 D:0)
+[2020.02.07-19.08.23:069][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2020.02.07-19.08.23:069][  0]LogD3D11RHI:     Adapter Name: Radeon Pro WX 7100
+[2020.02.07-19.08.23:069][  0]LogD3D11RHI:   Driver Version: Adrenalin 17.12 (internal:24.20.12024.10, unified:24.20.12024.10)
+[2020.02.07-19.08.23:069][  0]LogD3D11RHI:      Driver Date: 7-17-2018
+[2020.02.07-19.08.23:069][  0]LogRHI: Texture pool is 5720 MB (70% of 8172 MB)
+[2020.02.07-19.08.23:176][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.07-19.08.23:194][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.02.07-19.08.23:457][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.07-19.08.23:465][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.07-19.08.23:473][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.07-19.08.23:481][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.07-19.08.23:495][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.07-19.08.23:504][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.07-19.08.23:513][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.07-19.08.23:521][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.07-19.08.23:527][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.07-19.08.23:562][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.07-19.08.23:565][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.07-19.08.23:592][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.07-19.08.23:592][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.07-19.08.23:602][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.07-19.08.23:602][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.07-19.08.23:608][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.07-19.08.23:614][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.07-19.08.23:620][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.07-19.08.23:634][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.07-19.08.23:655][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.07-19.08.23:655][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.07-19.08.23:655][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.07-19.08.23:686][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.07-19.08.23:779][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../GitHub/CelestialPioneer/CelestialPioneers/Intermediate/Shaders/WorkingDirectory/8848/).
+[2020.02.07-19.08.23:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/166486/AppData/Local/Temp/UnrealShaderWorkingDir/18329E6340178450C843F1970668D5C2/'.
+[2020.02.07-19.08.23:782][  0]LogXGEController: Cleaning working directory: C:/Users/166486/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.07-19.08.23:782][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.07-19.08.23:783][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.07-19.08.23:783][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.07-19.08.25:399][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/CelestialPioneer/CelestialPioneers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/CelestialPioneer/CelestialPioneers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.07-19.08.25:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.07-19.08.25:477][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.07-19.08.25:478][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.07-19.08.25:478][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.07-19.08.25:480][  0]LogDerivedDataCache: Using Local data cache path C:/Users/166486/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.07-19.08.25:480][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.07-19.08.25:480][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.07-19.08.25:496][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.07-19.08.25:502][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.07-19.08.25:514][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.07-19.08.25:692][  0]LogAssetRegistry: FAssetRegistry took 0.0056 seconds to start up
+[2020.02.07-19.08.25:953][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.07-19.08.26:187][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.07-19.08.26:187][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.07-19.08.26:187][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.07-19.08.26:187][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.07-19.08.26:188][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.07-19.08.26:218][  0]LogNetVersion: CelestialPioneers 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 812701684)
+[2020.02.07-19.08.27:130][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.039850 seconds
+[2020.02.07-19.08.27:135][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.02.07-19.08.27:135][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.02.07-19.08.27:135][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.07-19.08.29:577][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.07-19.08.29:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.07-19.08.29:687][  0]SourceControl: Source control is disabled
+[2020.02.07-19.08.29:688][  0]SourceControl: Source control is disabled
+[2020.02.07-19.08.29:706][  0]SourceControl: Source control is disabled
+[2020.02.07-19.08.29:709][  0]SourceControl: Source control is disabled
+[2020.02.07-19.08.29:898][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.07-19.08.30:029][  0]LogOcInput: OculusInput pre-init called
+[2020.02.07-19.08.30:039][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.07-19.08.30:039][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.07-19.08.30:165][  0]LogEngine: Initializing Engine...
+[2020.02.07-19.08.30:168][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.07-19.08.30:171][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2020.02.07-19.08.30:478][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.07-19.08.30:508][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.07-19.08.30:524][  0]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.07-19.08.30:588][  0]LogInit: FAudioDevice initialized.
+[2020.02.07-19.08.30:588][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.07-19.08.30:631][  0]LogDerivedDataCache: Saved boot cache 0.04s 73MB C:/Users/166486/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.07-19.08.30:634][  0]LogInit: Texture streaming: Enabled
+[2020.02.07-19.08.30:658][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.07-19.08.30:658][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.07-19.08.30:659][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.07-19.08.30:725][  0]LogInit: Transaction tracking system initialized
+[2020.02.07-19.08.30:780][  0]BlueprintLog: New page: Editor Load
+[2020.02.07-19.08.30:917][  0]LocalizationService: Localization service is disabled
+[2020.02.07-19.08.31:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/' took 0.00s
+[2020.02.07-19.08.31:346][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.07-19.08.31:346][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.07-19.08.31:702][  0]SourceControl: Source control is disabled
+[2020.02.07-19.08.31:703][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.07-19.08.31:703][  0]LogEditorServer: Warning: Can't find file '../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.02.07-19.08.31:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.07-19.08.31:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.361ms to complete.
+[2020.02.07-19.08.31:703][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.001
+[2020.02.07-19.08.31:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.07-19.08.31:853][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.07-19.08.31:858][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.07-19.08.31:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.07-19.08.31:880][  0]LogCollectionManager: Loaded 0 collections in 0.001776 seconds
+[2020.02.07-19.08.31:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Saved/Collections/' took 0.00s
+[2020.02.07-19.08.31:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/Developers/166486/Collections/' took 0.00s
+[2020.02.07-19.08.31:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/166486/Desktop/GitHub/CelestialPioneer/CelestialPioneers/Content/Collections/' took 0.00s
+[2020.02.07-19.08.31:896][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.07-19.08.31:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2863 classes and 680 folders.
+[2020.02.07-19.08.31:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.07-19.08.32:181][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.07-19.08.32:190][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 1 classes and 2 folders.
+[2020.02.07-19.08.32:232][  0]LogSlate: Took 0.004452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.07-19.08.32:237][  0]LogSlate: Took 0.003843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.07-19.08.32:246][  0]LogSlate: Took 0.004502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.07-19.08.32:359][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.07-19.08.32:457][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.07-19.08.32:457][  0]LogLoad: (Engine Initialization) Total time: 15.17 seconds
+[2020.02.07-19.08.32:457][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.07-19.08.32:528][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.07-19.08.32:945][  8]LogAssetRegistry: Asset discovery search completed in 7.2542 seconds
+[2020.02.07-19.08.32:949][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2020.02.07-19.08.32:949][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2020.02.07-19.08.36:620][ 19]LogSlate: Took 0.004020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.07-19.09.09:238][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.09.14:273][930]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.07-19.09.15:218][930]LogAIModule: Creating AISystem for world Space
+[2020.02.07-19.09.15:393][930]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Space.Space
+[2020.02.07-19.09.15:418][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.02.07-19.09.15:419][930]Cmd: MAP LOAD FILE="../../../../../GitHub/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.07-19.09.15:419][930]LightingResults: New page: Lighting Build
+[2020.02.07-19.09.15:423][930]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2020.02.07-19.09.15:423][930]LoadErrors: New page: Loading map: Space.umap
+[2020.02.07-19.09.15:424][930]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.07-19.09.15:424][930]MapCheck: New page: Map Check
+[2020.02.07-19.09.15:424][930]LightingResults: New page: Lighting Build
+[2020.02.07-19.09.15:447][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.02.07-19.09.15:456][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.07-19.09.15:481][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.02.07-19.09.15:501][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.07-19.09.15:501][930]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.057ms to complete.
+[2020.02.07-19.09.15:501][930]LogFileHelpers: Loading map 'Space' took 0.083
+[2020.02.07-19.09.32:458][607]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={637FB285-41C3-492E-53B9-F18893ADF6CA}
+[2020.02.07-19.09.38:058][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.07-19.09.41:338][625]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/Template_Tex.Template_Tex
+[2020.02.07-19.09.41:346][625]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.02.07-19.09.45:362][ 95]LogSlate: Window 'Template_Tex' being destroyed
+[2020.02.07-19.14.53:316][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
