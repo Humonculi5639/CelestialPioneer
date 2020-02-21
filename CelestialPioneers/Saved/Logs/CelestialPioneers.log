@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 02/21/20 13:07:50
+=======
+﻿Log file open, 02/07/20 14:17:17
+>>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
 =======
 ﻿Log file open, 02/07/20 14:17:17
 >>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
@@ -14,7 +18,11 @@ LogInit: Display: Running engine for game: CelestialPioneers
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 6.169052
+=======
+LogStats: Stats thread started at 0.067187
+>>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
 =======
 LogStats: Stats thread started at 0.067187
 >>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
@@ -165,6 +173,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2020.02.21-19.08.18:525][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.21-19.08.18:525][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -784,6 +793,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.21-19.18.34:796][701]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2020.02.21-19.18.38:571][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
 =======
+=======
+>>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
 [2020.02.07-20.17.18:232][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.07-20.17.18:232][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.02.07-20.17.18:232][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/149650/Desktop/CelestialPioneer/CelestialPioneers/Saved/Config/Windows/Engine.ini]
@@ -1830,4 +1841,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.07-20.21.11:739][945]LogD3D11RHI: ~FD3D11DynamicRHI
 [2020.02.07-20.21.11:748][945]LogExit: Exiting.
 [2020.02.07-20.21.11:771][945]Log file closed, 02/07/20 14:21:11
+<<<<<<< HEAD
+>>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
+=======
 >>>>>>> parent of bb4042f... Rotational Bug Fix + Torque Implementation
