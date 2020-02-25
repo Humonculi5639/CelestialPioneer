@@ -6,8 +6,9 @@ LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
-LogInit: Display: Running engine for game: CelestialPioneers
+LogInit: Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../GitHub/CelestialPioneer/CelestialPioneers/CelestialPioneers.uproject
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.065835
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
