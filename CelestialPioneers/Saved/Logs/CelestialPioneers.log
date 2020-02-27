@@ -571,3 +571,430 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.27-19.10.02:142][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
 [2020.02.27-19.11.19:678][  0]LogTcpMessaging: Initializing TcpMessaging bridge
 [2020.02.27-19.11.21:191][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.27-19.11.44:029][  0]SourceControl: Source control is disabled
+[2020.02.27-19.11.44:029][  0]SourceControl: Source control is disabled
+[2020.02.27-19.11.45:586][  0]SourceControl: Source control is disabled
+[2020.02.27-19.11.47:105][  0]SourceControl: Source control is disabled
+[2020.02.27-19.12.34:316][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.27-19.12.51:223][  0]LogOcInput: OculusInput pre-init called
+[2020.02.27-19.12.54:256][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.27-19.12.54:256][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.27-19.13.01:908][  0]LogEngine: Initializing Engine...
+[2020.02.27-19.13.01:909][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.27-19.13.01:910][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.27-19.13.02:103][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.27-19.13.03:640][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.27-19.13.03:656][  0]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.13.03:676][  0]LogInit: FAudioDevice initialized.
+[2020.02.27-19.13.03:676][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.27-19.13.03:733][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/168605/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.27-19.13.03:737][  0]LogInit: Texture streaming: Enabled
+[2020.02.27-19.13.09:800][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.27-19.13.09:800][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.27-19.13.09:804][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.27-19.13.12:992][  0]LogInit: Transaction tracking system initialized
+[2020.02.27-19.13.22:136][  0]BlueprintLog: New page: Editor Load
+[2020.02.27-19.13.46:561][  0]LocalizationService: Localization service is disabled
+[2020.02.27-19.14.03:275][  0]LogLinker: Warning: Failed to load '/Game/TwinStickBP/TwinStickOverview': Can't find file.
+[2020.02.27-19.14.03:275][  0]LogLinker: Warning: Failed to load '/Game/TwinStickBP/TwinStickOverview': Can't find file.
+[2020.02.27-19.14.03:275][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
+[2020.02.27-19.14.09:544][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/ as it will conflict with another watching ../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/.
+[2020.02.27-19.14.09:544][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/ as it will conflict with another watching ../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/.
+[2020.02.27-19.14.09:557][  0]LogFileCache: Scanning file cache for directory 'C:/Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/' took 0.00s
+[2020.02.27-19.14.09:557][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.27-19.14.09:557][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.27-19.15.01:319][  0]SourceControl: Source control is disabled
+[2020.02.27-19.15.01:319][  0]Cmd: MAP LOAD FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.27-19.15.01:319][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.02.27-19.15.01:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.27-19.15.01:320][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2020.02.27-19.15.01:320][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.001
+[2020.02.27-19.15.01:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.01:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.01:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.01:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.02:959][  0]LogCollectionManager: Loaded 0 collections in 0.001855 seconds
+[2020.02.27-19.15.02:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/Collections/' took 0.00s
+[2020.02.27-19.15.02:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Developers/168605/Collections/' took 0.00s
+[2020.02.27-19.15.02:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Collections/' took 0.00s
+[2020.02.27-19.15.02:965][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.27-19.15.02:971][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2863 classes and 680 folders.
+[2020.02.27-19.15.02:977][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.27-19.15.03:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.27-19.15.04:668][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.02.27-19.15.04:682][  0]LogSlate: Took 0.000924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.27-19.15.04:684][  0]LogSlate: Took 0.000848 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.27-19.15.06:212][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.27-19.15.06:212][  0]LogLoad: (Engine Initialization) Total time: 435.28 seconds
+[2020.02.27-19.15.06:212][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.27-19.15.06:271][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.27-19.15.06:276][  0]LogSlate: Took 0.000715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.27-19.15.06:324][  0]LogSlate: Took 0.000787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.27-19.15.06:334][  0]LogRenderer: Reallocating scene render targets to support 820x360 Format 10 NumSamples 1 (Frame:1).
+[2020.02.27-19.15.06:428][  1]LogAssetRegistry: Asset discovery search completed in 315.1076 seconds
+[2020.02.27-19.15.06:431][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2020.02.27-19.15.06:431][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2020.02.27-19.15.21:992][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.27-19.15.23:483][203]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.27-19.15.24:352][203]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.15.24:522][203]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Space.Space
+[2020.02.27-19.15.24:583][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.02.27-19.15.24:583][203]Cmd: MAP LOAD FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.27-19.15.24:583][203]LightingResults: New page: Lighting Build
+[2020.02.27-19.15.24:586][203]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2020.02.27-19.15.24:586][203]LoadErrors: New page: Loading map: Space.umap
+[2020.02.27-19.15.24:586][203]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.15.24:587][203]MapCheck: New page: Map Check
+[2020.02.27-19.15.24:587][203]LightingResults: New page: Lighting Build
+[2020.02.27-19.15.24:610][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.02.27-19.15.24:612][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.27-19.15.24:638][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.02.27-19.15.24:668][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.27-19.15.24:668][203]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2020.02.27-19.15.24:668][203]LogFileHelpers: Loading map 'Space' took 0.085
+[2020.02.27-19.15.25:215][262]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.15.25:231][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.15.25:231][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.15.25:231][262]PIE: New page: PIE session: Space (Feb 27, 2020, 7:15:25 AM)
+[2020.02.27-19.15.25:232][262]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.27-19.15.25:233][262]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.15.25:236][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002431s)
+[2020.02.27-19.15.25:236][262]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.15.25:237][262]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2020.02.27-19.15.25:237][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.003515s)
+[2020.02.27-19.15.25:258][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.02.27-19.15.25:268][262]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.15.25:276][262]LogInit: FAudioDevice initialized.
+[2020.02.27-19.15.25:281][262]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.15.25:283][262]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.15.25
+[2020.02.27-19.15.25:283][262]LogWorld: Bringing up level for play took: 0.000734
+[2020.02.27-19.15.25:283][262]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.02.27-19.15.25:289][262]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2020.02.27-19.15.25:290][262]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space 0.077
+[2020.02.27-19.15.25:290][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.15.30:374][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.15.30:374][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.30:374][871]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.15.30:374][871]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.15.30:382][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.15.30:382][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.15.30:409][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.15.30:411][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.02.27-19.15.30:480][878]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.02.27-19.15.40:123][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.27-19.15.41:441][188]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/gui.gui
+[2020.02.27-19.15.41:670][188]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.02.27-19.15.43:998][188]LogSlate: Took 0.000826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.27-19.16.06:215][835]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={C0FB4AF3-4C54-A6D5-57E6-D9B5F2338B65}
+[2020.02.27-19.16.13:439][668]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.19.14:621][473]LogRenderer: Reallocating scene render targets to support 1236x572 Format 10 NumSamples 1 (Frame:7168).
+[2020.02.27-19.19.52:857][793]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\168605\Downloads\Nothing_whitespace_blank (2).png)
+[2020.02.27-19.19.52:860][793]LogTexture: Display: Building textures: Nothing_whitespace_blank__2_ (BGRA8, 641X564)
+[2020.02.27-19.20.29:408][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.20.29:433][992]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/gui2559799E4AAB8EB026DB1FB0D1235CF8.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.20.29:825][ 37]BlueprintLog: New page: Compile gui
+[2020.02.27-19.20.29:876][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.02.27-19.20.30:769][136]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.20.33:732][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.02.27-19.20.33:875][486]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/Space339A32FE4FD48439395022B3F4CACA12.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.27-19.20.35:304][652]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.20.35:324][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.35:324][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.20.35:324][652]PIE: New page: PIE session: Space (Feb 27, 2020, 7:20:35 AM)
+[2020.02.27-19.20.35:324][652]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.20.35:326][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002226s)
+[2020.02.27-19.20.35:327][652]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.20.35:327][652]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2020.02.27-19.20.35:327][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.003022s)
+[2020.02.27-19.20.35:356][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.02.27-19.20.35:367][652]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.20.35:375][652]LogInit: FAudioDevice initialized.
+[2020.02.27-19.20.35:379][652]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.20.35:380][652]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.20.35
+[2020.02.27-19.20.35:380][652]LogWorld: Bringing up level for play took: 0.000653
+[2020.02.27-19.20.35:380][652]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.02.27-19.20.35:382][652]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space 0.169
+[2020.02.27-19.20.35:382][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.36:825][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.36:825][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.20.36:825][824]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.20.36:825][824]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.20.36:830][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.20.36:830][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.36:865][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.20.36:867][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.02.27-19.20.36:926][828]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.27-19.20.37:723][908]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.27-19.20.45:873][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.20.45:892][855]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/gui824B3FE1441D184E8460A780BD7AF6B3.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.20.46:294][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.27-19.20.46:657][942]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.27-19.20.46:661][942]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.20.48:174][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.27-19.20.48:249][130]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.20.48:267][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.48:267][130]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.27-19.20.48:268][130]LogPlayLevel: [PlayLevel] Compiling gui before play...
+[2020.02.27-19.20.48:439][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.02.27-19.20.48:439][130]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (1 blueprints)
+[2020.02.27-19.20.48:439][130]PIE: New page: PIE session: Space (Feb 27, 2020, 7:20:48 AM)
+[2020.02.27-19.20.48:439][130]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.20.48:442][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002416s)
+[2020.02.27-19.20.48:442][130]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.20.48:442][130]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2020.02.27-19.20.48:443][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.003276s)
+[2020.02.27-19.20.48:473][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.02.27-19.20.48:483][130]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.20.48:489][130]LogInit: FAudioDevice initialized.
+[2020.02.27-19.20.48:493][130]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.20.48:494][130]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.20.48
+[2020.02.27-19.20.48:494][130]LogWorld: Bringing up level for play took: 0.000659
+[2020.02.27-19.20.48:494][130]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.02.27-19.20.48:496][130]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.718
+[2020.02.27-19.20.48:496][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.50:232][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.50:233][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.20.50:233][335]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.20.50:233][335]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.20.50:239][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.20.50:239][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.20.50:271][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.20.50:276][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.02.27-19.20.50:333][341]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.02.27-19.21.02:032][740]BlueprintLog: New page: Compile gui
+[2020.02.27-19.21.02:066][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.02.27-19.21.02:717][811]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.21.04:444][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.21.04:463][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.04:463][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.21.04:463][ 17]PIE: New page: PIE session: Space (Feb 27, 2020, 7:21:04 AM)
+[2020.02.27-19.21.04:463][ 17]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.04:465][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002130s)
+[2020.02.27-19.21.04:466][ 17]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.21.04:466][ 17]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2020.02.27-19.21.04:466][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002866s)
+[2020.02.27-19.21.04:497][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.02.27-19.21.04:506][ 17]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.21.04:512][ 17]LogInit: FAudioDevice initialized.
+[2020.02.27-19.21.04:524][ 17]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.21.04:526][ 17]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.21.04
+[2020.02.27-19.21.04:526][ 17]LogWorld: Bringing up level for play took: 0.000884
+[2020.02.27-19.21.04:526][ 17]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.02.27-19.21.04:528][ 17]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.685
+[2020.02.27-19.21.04:528][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.05:458][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.05:458][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.05:458][127]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.05:458][127]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.21.05:462][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.21.05:462][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.05:497][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.05:499][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.02.27-19.21.05:561][134]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.02.27-19.21.16:233][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.21.16:252][210]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/guiBBB63AF64AA93E23544278B7D7621544.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.21.17:711][381]BlueprintLog: New page: Compile gui
+[2020.02.27-19.21.17:745][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.02.27-19.21.18:507][467]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.21.18:526][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.18:526][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.21.18:526][467]PIE: New page: PIE session: Space (Feb 27, 2020, 7:21:18 AM)
+[2020.02.27-19.21.18:526][467]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.18:528][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002175s)
+[2020.02.27-19.21.18:529][467]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.21.18:529][467]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2020.02.27-19.21.18:529][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002883s)
+[2020.02.27-19.21.18:554][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.02.27-19.21.18:564][467]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.21.18:570][467]LogInit: FAudioDevice initialized.
+[2020.02.27-19.21.18:581][467]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.21.18:582][467]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.21.18
+[2020.02.27-19.21.18:582][467]LogWorld: Bringing up level for play took: 0.001168
+[2020.02.27-19.21.18:582][467]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.02.27-19.21.18:584][467]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.628
+[2020.02.27-19.21.18:584][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.20:606][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.20:606][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.20:606][708]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.20:606][708]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.21.20:614][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.21.20:614][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.20:646][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.20:649][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.02.27-19.21.20:712][714]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.02.27-19.21.23:114][  2]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.21.23:133][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.23:133][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.21.23:133][  2]PIE: New page: PIE session: Space (Feb 27, 2020, 7:21:23 AM)
+[2020.02.27-19.21.23:133][  2]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.23:135][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002238s)
+[2020.02.27-19.21.23:136][  2]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.21.23:136][  2]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2020.02.27-19.21.23:136][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002954s)
+[2020.02.27-19.21.23:164][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.02.27-19.21.23:174][  2]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.21.23:180][  2]LogInit: FAudioDevice initialized.
+[2020.02.27-19.21.23:189][  2]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.21.23:190][  2]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.21.23
+[2020.02.27-19.21.23:190][  2]LogWorld: Bringing up level for play took: 0.000608
+[2020.02.27-19.21.23:190][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.02.27-19.21.23:192][  2]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.021
+[2020.02.27-19.21.23:192][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.24:046][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.24:047][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.24:047][103]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.24:047][103]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.21.24:055][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.21.24:055][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.24:088][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.24:091][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.02.27-19.21.24:151][110]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.27-19.21.33:761][171]BlueprintLog: New page: Compile gui
+[2020.02.27-19.21.33:796][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.02.27-19.21.34:906][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.21.34:924][296]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/gui347803AE47CF686049B9A0B19727EB64.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.21.35:771][392]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.21.36:910][527]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.21.36:928][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.36:928][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.21.36:928][527]PIE: New page: PIE session: Space (Feb 27, 2020, 7:21:36 AM)
+[2020.02.27-19.21.36:928][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.36:930][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002208s)
+[2020.02.27-19.21.36:930][527]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.21.36:930][527]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2020.02.27-19.21.36:930][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002932s)
+[2020.02.27-19.21.36:964][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.02.27-19.21.36:973][527]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.21.36:980][527]LogInit: FAudioDevice initialized.
+[2020.02.27-19.21.36:984][527]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.21.36:986][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.21.36
+[2020.02.27-19.21.36:986][527]LogWorld: Bringing up level for play took: 0.000732
+[2020.02.27-19.21.36:986][527]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.02.27-19.21.36:987][527]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.225
+[2020.02.27-19.21.36:987][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.46:576][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.21.46:592][541]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/guiE8A6BF5E45C1659B22C9D8924AF86367.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.21.47:395][634]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.21.48:411][754]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.48:411][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.48:411][754]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.48:411][754]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.21.48:419][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.21.48:419][754]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.48:453][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.48:456][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.02.27-19.21.48:518][761]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.02.27-19.21.48:876][804]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.21.48:895][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.48:895][804]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.27-19.21.48:896][804]LogPlayLevel: [PlayLevel] Compiling gui before play...
+[2020.02.27-19.21.49:065][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.02.27-19.21.49:065][804]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (1 blueprints)
+[2020.02.27-19.21.49:065][804]PIE: New page: PIE session: Space (Feb 27, 2020, 7:21:49 AM)
+[2020.02.27-19.21.49:065][804]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.49:068][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002223s)
+[2020.02.27-19.21.49:068][804]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.21.49:068][804]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2020.02.27-19.21.49:068][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.003031s)
+[2020.02.27-19.21.49:097][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.02.27-19.21.49:107][804]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.21.49:113][804]LogInit: FAudioDevice initialized.
+[2020.02.27-19.21.49:116][804]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.21.49:117][804]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.21.49
+[2020.02.27-19.21.49:118][804]LogWorld: Bringing up level for play took: 0.000599
+[2020.02.27-19.21.49:118][804]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.02.27-19.21.49:119][804]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.093
+[2020.02.27-19.21.49:119][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.55:098][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.55:098][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.55:098][423]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.21.55:098][423]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.21.55:106][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.21.55:106][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.21.55:141][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.21.55:144][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.02.27-19.21.55:202][429]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.27-19.21.59:260][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.21.59:276][912]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/guiDD6861DE4EC17DF6BCCAB78E11B49FBF.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.21.59:949][989]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.22.00:913][104]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.22.00:931][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.22.00:931][104]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.27-19.22.00:933][104]LogPlayLevel: [PlayLevel] Compiling gui before play...
+[2020.02.27-19.22.01:100][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.02.27-19.22.01:100][104]LogPlayLevel: PlayLevel: Blueprint regeneration took 169 ms (1 blueprints)
+[2020.02.27-19.22.01:100][104]PIE: New page: PIE session: Space (Feb 27, 2020, 7:22:01 AM)
+[2020.02.27-19.22.01:101][104]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.22.01:103][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2020.02.27-19.22.01:103][104]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.22.01:103][104]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2020.02.27-19.22.01:103][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002888s)
+[2020.02.27-19.22.01:135][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.02.27-19.22.01:145][104]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.22.01:151][104]LogInit: FAudioDevice initialized.
+[2020.02.27-19.22.01:156][104]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.22.01:158][104]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.22.01
+[2020.02.27-19.22.01:158][104]LogWorld: Bringing up level for play took: 0.000599
+[2020.02.27-19.22.01:158][104]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.02.27-19.22.01:159][104]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space -0.052
+[2020.02.27-19.22.01:159][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.22.06:312][719]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.22.06:315][719]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.22.06:317][719]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.22.06:320][719]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.22.07:173][817]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Nothing_whitespace_blank__2_.Nothing_whitespace_blank__2_
+[2020.02.27-19.22.08:712][817]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.02.27-19.22.25:214][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.27-19.22.33:526][748]LogSlate: Window 'Nothing_whitespace_blank__2_' being destroyed
+[2020.02.27-19.22.33:531][748]LogSlate: Window 'Nothing_whitespace_blank__2_' being destroyed
+[2020.02.27-19.23.28:203][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.28:203][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.23.28:203][422]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.23.28:203][422]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.23.28:212][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.23.28:212][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.28:242][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.23.28:268][422]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.02.27-19.23.28:303][426]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.02.27-19.23.30:938][739]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/gui.gui
+[2020.02.27-19.23.50:282][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/gui" FILE="../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset" SILENT=true
+[2020.02.27-19.23.50:300][ 15]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/gui59E715AC4D515B040A20AABB14420AF3.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/gui.uasset'
+[2020.02.27-19.23.50:756][ 68]BlueprintLog: New page: Compile gui
+[2020.02.27-19.23.50:786][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.02.27-19.23.52:132][179]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.27-19.23.52:154][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.52:154][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.27-19.23.52:154][179]PIE: New page: PIE session: Space (Feb 27, 2020, 7:23:52 AM)
+[2020.02.27-19.23.52:154][179]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.23.52:156][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002276s)
+[2020.02.27-19.23.52:157][179]LogAIModule: Creating AISystem for world Space
+[2020.02.27-19.23.52:157][179]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2020.02.27-19.23.52:157][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Space.Space to /Game/Levels/UEDPIE_0_Space.Space (0.002999s)
+[2020.02.27-19.23.52:185][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.02.27-19.23.52:196][179]LogInit: XAudio2 using 'Speakers (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.27-19.23.52:202][179]LogInit: FAudioDevice initialized.
+[2020.02.27-19.23.52:208][179]LogLoad: Game class is 'ExplorationMode_C'
+[2020.02.27-19.23.52:209][179]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Space.Space up for play (max tick rate 0) at 2020.02.27-13.23.52
+[2020.02.27-19.23.52:209][179]LogWorld: Bringing up level for play took: 0.000617
+[2020.02.27-19.23.52:209][179]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.02.27-19.23.52:211][179]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Space 1.002
+[2020.02.27-19.23.52:211][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.58:343][529]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.23.58:346][529]LogSlate: Window 'gui' being destroyed
+[2020.02.27-19.23.58:348][529]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.23.58:350][529]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.23.59:465][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.59:466][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.23.59:466][659]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Space
+[2020.02.27-19.23.59:466][659]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2020.02.27-19.23.59:475][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.27-19.23.59:476][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Space.Space:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Space.Space:PersistentLevel.Space' with GeneratedClass '/Game/Levels/Space.Space_C' with ClassGeneratedBy '/Game/Levels/Space.Space:PersistentLevel.Space'
+[2020.02.27-19.23.59:502][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.27-19.23.59:507][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.02.27-19.23.59:568][666]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.02.27-19.24.00:342][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.02.27-19.24.00:471][755]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/SpaceECBFA5E049D94BC718F310AD92B9C58E.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.27-19.24.01:622][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.02.27-19.24.01:773][884]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/SpaceE3176B1D44AF23D9F13A0599A1D3AC01.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
+[2020.02.27-19.24.17:557][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.02.27-19.24.17:686][768]LogSavePackage: Moving '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Saved/SpaceD45403FB4B4E2A3C624F99BE49065F52.tmp' to '../../../../../../Users/168605/Desktop/New folder/CelestialPioneer/CelestialPioneers/Content/Levels/Space.umap'
