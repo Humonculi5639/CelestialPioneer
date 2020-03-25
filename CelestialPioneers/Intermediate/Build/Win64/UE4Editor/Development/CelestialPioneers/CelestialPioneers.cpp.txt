@@ -1,2 +1,0 @@
-C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\Definitions.CelestialPioneers.h
-C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Source\CelestialPioneers\CelestialPioneers.h
