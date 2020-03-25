@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: CelestialPioneers
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 6.465236
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.139003
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: D:/EpicGames Library/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -486,7 +486,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.25-16.42.38:967][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
 [2020.03.25-16.42.38:967][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
 [2020.03.25-16.42.38:967][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.03.25-16.42.38:968][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.25-16.42.38:968][  0]LogWindows: DebugString: FoundDriverCount:4
 [2020.03.25-16.42.38:968][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
 [2020.03.25-16.42.38:969][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
 [2020.03.25-16.42.38:969][  0]LogD3D11RHI:      Driver Date: 3-17-2020
@@ -694,8 +694,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.25-16.47.20:347][747]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
 [2020.03.25-16.47.20:347][747]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
 [2020.03.25-16.47.20:347][747]LogTexture: Display: Building textures: Space2 (AutoDXT, 1024X1024)
-[2020.03.25-16.47.20:347][747]LogMaterial: Display: Missing cached shader map for material Space, compiling. 
-[2020.03.25-16.47.20:570][747]LogMaterial: Display: Missing cached shader map for material Space, compiling. 
+[2020.03.25-16.47.20:347][747]LogMaterial: Display: Missing cached shader map for material Space, compiling.
+[2020.03.25-16.47.20:570][747]LogMaterial: Display: Missing cached shader map for material Space, compiling.
 [2020.03.25-16.47.20:625][747]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
 [2020.03.25-16.47.20:625][747]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
 [2020.03.25-16.47.20:625][747]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
@@ -704,8 +704,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.25-16.47.20:864][747]LogStaticMesh: Built static mesh [0.24s] /Game/Meshes/crane.crane
 [2020.03.25-16.47.21:144][747]LogStaticMesh: Building static mesh anothership...
 [2020.03.25-16.47.21:317][747]LogStaticMesh: Built static mesh [0.17s] /Game/Meshes/anothership.anothership
-[2020.03.25-16.47.21:339][747]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2020.03.25-16.47.21:386][747]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.03.25-16.47.21:339][747]LogMaterial: Display: Missing cached shader map for material Material, compiling.
+[2020.03.25-16.47.21:386][747]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling.
 [2020.03.25-16.47.21:503][747]LogAIModule: Creating AISystem for world SpaceTest
 [2020.03.25-16.47.21:672][747]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceTest.SpaceTest
 [2020.03.25-16.47.21:739][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms

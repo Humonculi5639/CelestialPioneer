@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CelestialPioneers-1700.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\CelestialPioneersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\ShipBase.cpp.obj"
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\CelestialPioneers.cpp.obj"
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\CelestialPioneers.init.gen.cpp.obj"
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\ShipBase.gen.cpp.obj"
+"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\Default.rc2.res"
+/OUT:"C:\Users\229133\Desktop\GitHub\CelestialPioneer\CelestialPioneers\Intermediate\Build\Win64\UE4Editor\Development\CelestialPioneers\UE4Editor-CelestialPioneers-1700.lib"
+/INCLUDE:IMPLEMENT_MODULE_CelestialPioneers
